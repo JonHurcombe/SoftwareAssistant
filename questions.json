@@ -1,0 +1,34 @@
+[
+    {
+        "ID":"1",
+        "Question":"Looking to find out where to store data?",
+        "Answers":["Yes","No"],
+        "Children":["2","3"]
+    },
+    {
+        "ID":2,
+        "Question":"Great! Lets get started. How big is your data?",
+        "Answers":["Over 5gb","5gb", "Under 5gb"],
+        "Children":["4","5","6"]
+    },
+    {
+        "ID":"3",
+        "Question":"What you doing here then? Bye!",
+        "Answers":[]
+    },
+    {
+        "ID":"4",
+        "Question":"You should use SDE on cloud.",
+        "Answers":[]
+    },
+    {
+        "ID":"5",
+        "Question":"You should use SDE on premise.",
+        "Answers":[]
+    },
+    {
+        "ID":"6",
+        "Question":"You should use GDB on premise.",
+        "Answers":[]
+    }
+]
