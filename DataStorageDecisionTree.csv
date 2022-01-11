@@ -25,7 +25,7 @@ Node ID,Node Description,Branch Description,Child Nodes (by ID),Comment
 51,Will it be mostly 2D or 3D,2D|3D,60|52,Internal node (decision)
 52,does it need to have a high level of detailed 3D locations,No|Yes,70|53,Internal node (decision)
 53,Does it need to look Photorealistic,No|Yes,1013|1014,Internal node (decision)
-60,Do you have an anaylsis that will need to be repeated?,No|Yes,61|1010,Internal node (decision)
+60,Do you have an analysis that will need to be repeated?,No|Yes,61|1010,Internal node (decision)
 61,Do you want to make a series of mapped images?,No|Yes,1011|1012,Internal node (decision)
 70,Note: Does it need to look Photorealistic?,Next,71,Internal node (decision)
 71,Is it a single feature or a wider scene?,Scene|Scene Feature,1015|1016,Internal node (decision)
