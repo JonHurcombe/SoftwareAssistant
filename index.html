@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Data Storage Predictor</title>
+
+        <!--BOOTSTRAP MAIN STYLES -->
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!--CUSTOM STYLE -->
+        <link href="Assets/css/dataStoragePredictor.css" rel="stylesheet" />
+
+        <!-- CUSTOM SCRIPT-->
+        <script src="Assets/js/dataStoragePredictor.js"></script>
+
+    </head>
+
+    <body>  
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/media/robotThinking.png" width="20" height="20" class="d-inline-block align-top" alt="">
+                Data Storage Predictor
+              </a>
+              <!-- <button id="btn-loadJokeBot" class="btn btn-outline-danger my-2 my-sm-0">Load joke bot</button> -->
+        </nav>
+        <div class="container" id="chatBoxContainer">
+            <div class="container" id="chatConvoContainer">
+            </div>
+            <hr>
+            <div class="container-fluid" id="chatReplyOptionsContainer">
+            </div>    
+            <div class="container-fluid" id="chatSettingContainer">
+                    <div id="btn-goToPreviousQuestion" class="btn btn-sm btn-outline-info btn-chatSettings">Go back one</div>
+                    <div id="btn-restartChat" class="btn btn-sm btn-outline-success btn-chatSettings">Start over</div>
+            </div>    
+        </div>
+
+        <!-- Jquery-csv -->
+        <script src="Assets/plugins/jquery-csv/jquery.csv.min.js"></script>
+    </body>
+</html>
