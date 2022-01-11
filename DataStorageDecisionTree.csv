@@ -57,7 +57,7 @@ Node ID,Node Description,Branch Description,Child Nodes (by ID),Comment
 280,Note: Have a chat with your local Digital contacts / Digital integrator. Do a DIP for your project. Plan a Scope at the start of the project. Plan a workflow,Next,252,Internal node (decision)
 281,What sort of data are you creating?,Tabular|Design|Reporting|Spatial|Onsite|Statistical,1040|1041|1042|1043|1044|1045,Internal node (decision)
 500,Is this a one off or repeatable for another use?,1 Time|Repeatable,501|1019,Internal node (decision)
-501,Does it have location Info (Spatial)?,No|Yes,1020|1024,Internal node (decision)
+501,Does it have location Info (Spatial)?,No|Yes,1024|1020,Internal node (decision)
 
 
 
