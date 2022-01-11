@@ -28,7 +28,7 @@ function mapUserHeadersToCodeHeaders(questions){
 
 function loadQuestions(){
     // return $.ajax({url:"Assets/data/questions.json"});
-    return $.ajax({ url: "Assets/data/DataStorageDecisionTree.csv" })
+    return $.ajax({ url: "DataStorageDecisionTree.csv" })
 }
 
 function startChat(questionsNodes){
